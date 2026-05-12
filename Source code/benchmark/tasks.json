@@ -1,0 +1,1652 @@
+[
+  {
+    "id": "A001",
+    "category": "Algorithm",
+    "title": "Merge Sort",
+    "function_name": "merge_sort",
+    "prompts": {
+      "structured": "Implement merge_sort(arr: list[int]) -> list[int] in Python. Sort the array in ascending order using the merge sort algorithm. Handle empty arrays and single-element arrays. The algorithm must run in O(n log n) time and O(n) space. Return the sorted array.",
+      "semi_structured": "Implement merge sort algorithm in Python.",
+      "minimal": "merge sort python"
+    }
+  },
+  {
+    "id": "A002",
+    "category": "Algorithm",
+    "title": "Binary Search",
+    "function_name": "binary_search",
+    "prompts": {
+      "structured": "Implement binary_search(arr: list[int], target: int) -> int in Python. The array is sorted in ascending order. Return the index of target if found, else return -1. Must run in O(log n) time. Handle empty arrays.",
+      "semi_structured": "Implement binary search in Python.",
+      "minimal": "binary search python"
+    }
+  },
+  {
+    "id": "A003",
+    "category": "Algorithm",
+    "title": "Quick Sort",
+    "function_name": "quick_sort",
+    "prompts": {
+      "structured": "Implement quick_sort(arr: list[int]) -> list[int] in Python. Sort in ascending order using quicksort with last-element pivot. Handle empty and single-element arrays. Average O(n log n) time. Return sorted array.",
+      "semi_structured": "Implement quicksort in Python.",
+      "minimal": "quicksort python"
+    }
+  },
+  {
+    "id": "A004",
+    "category": "Algorithm",
+    "title": "Bubble Sort",
+    "function_name": "bubble_sort",
+    "prompts": {
+      "structured": "Implement bubble_sort(arr: list[int]) -> list[int] in Python. Sort ascending using bubble sort with early-exit optimisation. Handle empty arrays. O(n^2) worst case, O(n) best case. Return sorted array.",
+      "semi_structured": "Implement bubble sort in Python.",
+      "minimal": "bubble sort python"
+    }
+  },
+  {
+    "id": "A005",
+    "category": "Algorithm",
+    "title": "Insertion Sort",
+    "function_name": "insertion_sort",
+    "prompts": {
+      "structured": "Implement insertion_sort(arr: list[int]) -> list[int] in Python. Sort ascending using insertion sort. Handle empty and single-element arrays. O(n^2) worst case. Return sorted array.",
+      "semi_structured": "Implement insertion sort in Python.",
+      "minimal": "insertion sort python"
+    }
+  },
+  {
+    "id": "A006",
+    "category": "Algorithm",
+    "title": "Selection Sort",
+    "function_name": "selection_sort",
+    "prompts": {
+      "structured": "Implement selection_sort(arr: list[int]) -> list[int] in Python. Sort ascending using selection sort. Handle empty arrays. O(n^2) time, O(1) space. Return sorted array.",
+      "semi_structured": "Implement selection sort in Python.",
+      "minimal": "selection sort python"
+    }
+  },
+  {
+    "id": "A007",
+    "category": "Algorithm",
+    "title": "Heap Sort",
+    "function_name": "heap_sort",
+    "prompts": {
+      "structured": "Implement heap_sort(arr: list[int]) -> list[int] in Python. Sort ascending using the heapsort algorithm (max-heap). Handle empty arrays. O(n log n) time, O(1) extra space. Return sorted array.",
+      "semi_structured": "Implement heap sort in Python.",
+      "minimal": "heap sort python"
+    }
+  },
+  {
+    "id": "A008",
+    "category": "Algorithm",
+    "title": "Counting Sort",
+    "function_name": "counting_sort",
+    "prompts": {
+      "structured": "Implement counting_sort(arr: list[int]) -> list[int] in Python. Elements are non-negative integers. Sort in ascending order in O(n+k) time where k is the max value. Handle empty arrays. Return sorted array.",
+      "semi_structured": "Implement counting sort for non-negative integers in Python.",
+      "minimal": "counting sort python"
+    }
+  },
+  {
+    "id": "A009",
+    "category": "Algorithm",
+    "title": "Fibonacci",
+    "function_name": "fibonacci",
+    "prompts": {
+      "structured": "Implement fibonacci(n: int) -> int in Python. Return the n-th Fibonacci number (0-indexed: fib(0)=0, fib(1)=1). Use dynamic programming or memoisation for O(n) time. Handle n=0 and n=1. Raise ValueError for negative n.",
+      "semi_structured": "Implement fibonacci function in Python using dynamic programming.",
+      "minimal": "fibonacci python dp"
+    }
+  },
+  {
+    "id": "A010",
+    "category": "Algorithm",
+    "title": "Factorial",
+    "function_name": "factorial",
+    "prompts": {
+      "structured": "Implement factorial(n: int) -> int in Python. Return n! for non-negative integers. Use an iterative approach for O(n) time and O(1) space. Raise ValueError for negative inputs. factorial(0) must return 1.",
+      "semi_structured": "Implement iterative factorial in Python.",
+      "minimal": "factorial iterative python"
+    }
+  },
+  {
+    "id": "A011",
+    "category": "Algorithm",
+    "title": "GCD",
+    "function_name": "gcd",
+    "prompts": {
+      "structured": "Implement gcd(a: int, b: int) -> int in Python. Return the greatest common divisor of two non-negative integers using the Euclidean algorithm. Handle a=0 or b=0 (gcd(0,x)=x). O(log min(a,b)) time.",
+      "semi_structured": "Implement GCD using Euclidean algorithm in Python.",
+      "minimal": "gcd euclidean python"
+    }
+  },
+  {
+    "id": "A012",
+    "category": "Algorithm",
+    "title": "LCM",
+    "function_name": "lcm",
+    "prompts": {
+      "structured": "Implement lcm(a: int, b: int) -> int in Python. Return the least common multiple of two positive integers. Use gcd internally to achieve O(log min(a,b)) time. Handle edge cases where a or b is 1.",
+      "semi_structured": "Implement LCM of two integers in Python.",
+      "minimal": "lcm python"
+    }
+  },
+  {
+    "id": "A013",
+    "category": "Algorithm",
+    "title": "Is Prime",
+    "function_name": "is_prime",
+    "prompts": {
+      "structured": "Implement is_prime(n: int) -> bool in Python. Return True if n is a prime number, False otherwise. Use trial division up to sqrt(n) for O(sqrt(n)) time. Handle n<=1 correctly (return False).",
+      "semi_structured": "Implement a prime checking function in Python.",
+      "minimal": "prime check python"
+    }
+  },
+  {
+    "id": "A014",
+    "category": "Algorithm",
+    "title": "Sieve of Eratosthenes",
+    "function_name": "sieve_of_eratosthenes",
+    "prompts": {
+      "structured": "Implement sieve(n: int) -> list[int] in Python. Return all prime numbers up to and including n using the Sieve of Eratosthenes. O(n log log n) time. Handle n<2 by returning an empty list.",
+      "semi_structured": "Implement Sieve of Eratosthenes in Python.",
+      "minimal": "sieve eratosthenes python"
+    }
+  },
+  {
+    "id": "A015",
+    "category": "Algorithm",
+    "title": "Power Function",
+    "function_name": "power",
+    "prompts": {
+      "structured": "Implement power(base: float, exp: int) -> float in Python without using the ** operator. Use fast exponentiation (exponentiation by squaring) for O(log exp) time. Handle negative exponents and base=0.",
+      "semi_structured": "Implement fast power function in Python without ** operator.",
+      "minimal": "fast exponentiation python"
+    }
+  },
+  {
+    "id": "A016",
+    "category": "Algorithm",
+    "title": "Two Sum",
+    "function_name": "two_sum",
+    "prompts": {
+      "structured": "Implement two_sum(nums: list[int], target: int) -> list[int] in Python. Return indices [i, j] such that nums[i] + nums[j] == target. Assume exactly one solution exists. Use a hash map for O(n) time and O(n) space.",
+      "semi_structured": "Implement two sum problem in Python using a hash map.",
+      "minimal": "two sum python hashmap"
+    }
+  },
+  {
+    "id": "A017",
+    "category": "Algorithm",
+    "title": "Reverse String",
+    "function_name": "reverse_string",
+    "prompts": {
+      "structured": "Implement reverse_string(s: str) -> str in Python. Return the reversed string in O(n) time without using slicing [::-1]. Handle empty strings. Do not use the built-in reversed() for the core logic.",
+      "semi_structured": "Implement string reversal in Python without slicing.",
+      "minimal": "reverse string python"
+    }
+  },
+  {
+    "id": "A018",
+    "category": "Algorithm",
+    "title": "Palindrome Check",
+    "function_name": "palindrome_check",
+    "prompts": {
+      "structured": "Implement is_palindrome(s: str) -> bool in Python. Return True if s is a palindrome ignoring case and non-alphanumeric characters. O(n) time. Handle empty string (return True). Examples: 'A man a plan a canal Panama' -> True.",
+      "semi_structured": "Implement palindrome check ignoring punctuation and case in Python.",
+      "minimal": "palindrome python"
+    }
+  },
+  {
+    "id": "A019",
+    "category": "Algorithm",
+    "title": "Anagram Check",
+    "function_name": "anagram_check",
+    "prompts": {
+      "structured": "Implement is_anagram(s: str, t: str) -> bool in Python. Return True if t is an anagram of s. Ignore case. Use a frequency counter for O(n) time. Handle strings of different lengths (return False).",
+      "semi_structured": "Implement anagram check in Python.",
+      "minimal": "anagram check python"
+    }
+  },
+  {
+    "id": "A020",
+    "category": "Algorithm",
+    "title": "Longest Common Prefix",
+    "function_name": "longest_common_prefix",
+    "prompts": {
+      "structured": "Implement longest_common_prefix(strs: list[str]) -> str in Python. Find the longest common prefix string among all strings in the list. Return empty string if none. O(S) time where S is the sum of all characters.",
+      "semi_structured": "Find longest common prefix of a list of strings in Python.",
+      "minimal": "longest common prefix python"
+    }
+  },
+  {
+    "id": "A021",
+    "category": "Algorithm",
+    "title": "Valid Parentheses",
+    "function_name": "valid_parentheses",
+    "prompts": {
+      "structured": "Implement is_valid(s: str) -> bool in Python. Given a string containing only '(', ')', '{', '}', '[', ']', return True if the input string is valid (brackets closed in correct order). Use a stack. O(n) time.",
+      "semi_structured": "Validate parentheses string using a stack in Python.",
+      "minimal": "valid parentheses stack python"
+    }
+  },
+  {
+    "id": "A022",
+    "category": "Algorithm",
+    "title": "Maximum Subarray",
+    "function_name": "max_subarray",
+    "prompts": {
+      "structured": "Implement max_subarray(nums: list[int]) -> int in Python. Find the contiguous subarray with the largest sum and return its sum. Use Kadane's algorithm for O(n) time and O(1) space. Handle all-negative arrays.",
+      "semi_structured": "Implement Kadane's algorithm for maximum subarray sum in Python.",
+      "minimal": "kadane max subarray python"
+    }
+  },
+  {
+    "id": "A023",
+    "category": "Algorithm",
+    "title": "Climbing Stairs",
+    "function_name": "climbing_stairs",
+    "prompts": {
+      "structured": "Implement climb_stairs(n: int) -> int in Python. You can climb 1 or 2 steps at a time. Return the number of distinct ways to reach the top. Use dynamic programming for O(n) time and O(1) space.",
+      "semi_structured": "Implement climbing stairs dynamic programming problem in Python.",
+      "minimal": "climbing stairs dp python"
+    }
+  },
+  {
+    "id": "A024",
+    "category": "Algorithm",
+    "title": "Coin Change",
+    "function_name": "coin_change",
+    "prompts": {
+      "structured": "Implement coin_change(coins: list[int], amount: int) -> int in Python. Return the fewest number of coins needed to make up the amount. Return -1 if it is not possible. Use bottom-up DP for O(amount * len(coins)) time.",
+      "semi_structured": "Implement coin change problem using dynamic programming in Python.",
+      "minimal": "coin change dp python"
+    }
+  },
+  {
+    "id": "A025",
+    "category": "Algorithm",
+    "title": "Longest Increasing Subsequence",
+    "function_name": "longest_increasing_subsequence",
+    "prompts": {
+      "structured": "Implement lis(nums: list[int]) -> int in Python. Return the length of the longest strictly increasing subsequence. Use patience sorting (binary search + DP) for O(n log n) time. Handle empty list (return 0).",
+      "semi_structured": "Implement longest increasing subsequence in O(n log n) in Python.",
+      "minimal": "LIS python nlogn"
+    }
+  },
+  {
+    "id": "A026",
+    "category": "Algorithm",
+    "title": "BFS",
+    "function_name": "bfs",
+    "prompts": {
+      "structured": "Implement bfs(graph: dict, start: int) -> list[int] in Python. Perform breadth-first search on an undirected graph represented as an adjacency list. Return the list of visited nodes in BFS order. Handle disconnected graphs.",
+      "semi_structured": "Implement BFS on adjacency list graph in Python.",
+      "minimal": "bfs python graph"
+    }
+  },
+  {
+    "id": "A027",
+    "category": "Algorithm",
+    "title": "DFS",
+    "function_name": "dfs",
+    "prompts": {
+      "structured": "Implement dfs(graph: dict, start: int) -> list[int] in Python. Perform depth-first search iteratively (using a stack) on an undirected graph. Return visited nodes in DFS order. Handle disconnected graphs.",
+      "semi_structured": "Implement iterative DFS in Python.",
+      "minimal": "dfs iterative python"
+    }
+  },
+  {
+    "id": "A028",
+    "category": "Algorithm",
+    "title": "Dijkstra",
+    "function_name": "dijkstra",
+    "prompts": {
+      "structured": "Implement dijkstra(graph: dict, src: int) -> dict in Python. graph[u] = [(v, weight)]. Return a dict of shortest distances from src to all vertices. Use a min-heap (heapq). O((V+E) log V) time. Handle unreachable nodes (distance = infinity).",
+      "semi_structured": "Implement Dijkstra shortest path algorithm in Python.",
+      "minimal": "dijkstra python heapq"
+    }
+  },
+  {
+    "id": "A029",
+    "category": "Algorithm",
+    "title": "Topological Sort",
+    "function_name": "topological_sort",
+    "prompts": {
+      "structured": "Implement topological_sort(graph: dict) -> list[int] in Python. graph is a DAG as adjacency list. Return a valid topological ordering. Use Kahn's algorithm (BFS-based). Return [] if a cycle is detected.",
+      "semi_structured": "Implement topological sort using Kahn's algorithm in Python.",
+      "minimal": "topological sort python kahn"
+    }
+  },
+  {
+    "id": "A030",
+    "category": "Algorithm",
+    "title": "0/1 Knapsack",
+    "function_name": "knapsack_01",
+    "prompts": {
+      "structured": "Implement knapsack(weights: list[int], values: list[int], capacity: int) -> int in Python. Return the maximum value achievable without exceeding the capacity. Use bottom-up DP. O(n * capacity) time and space.",
+      "semi_structured": "Implement 0/1 knapsack using DP in Python.",
+      "minimal": "knapsack dp python"
+    }
+  },
+  {
+    "id": "A031",
+    "category": "Algorithm",
+    "title": "Matrix Multiplication",
+    "function_name": "matrix_multiply",
+    "prompts": {
+      "structured": "Implement matrix_multiply(A: list[list[int]], B: list[list[int]]) -> list[list[int]] in Python. Return the product of two matrices. Raise ValueError if dimensions are incompatible. O(n^3) time for n x n matrices.",
+      "semi_structured": "Implement matrix multiplication in Python.",
+      "minimal": "matrix multiply python"
+    }
+  },
+  {
+    "id": "A032",
+    "category": "Algorithm",
+    "title": "Rotate Array",
+    "function_name": "rotate_array",
+    "prompts": {
+      "structured": "Implement rotate(nums: list[int], k: int) -> list[int] in Python. Rotate the array to the right by k steps in-place (or return the rotated array). Handle k > len(nums) using modulo. O(n) time, O(1) extra space using reversal.",
+      "semi_structured": "Implement array rotation by k steps in Python.",
+      "minimal": "rotate array python"
+    }
+  },
+  {
+    "id": "A033",
+    "category": "Algorithm",
+    "title": "Find Duplicates",
+    "function_name": "find_duplicates",
+    "prompts": {
+      "structured": "Implement find_duplicates(nums: list[int]) -> list[int] in Python. Given an integer array where 1 <= nums[i] <= len(nums), find all duplicates. Return them in any order. Use index-marking technique for O(n) time and O(1) extra space.",
+      "semi_structured": "Find all duplicate elements in array in O(n) time Python.",
+      "minimal": "find duplicates array python"
+    }
+  },
+  {
+    "id": "A034",
+    "category": "Algorithm",
+    "title": "Majority Element",
+    "function_name": "majority_element",
+    "prompts": {
+      "structured": "Implement majority_element(nums: list[int]) -> int in Python. Find the element that appears more than n/2 times (guaranteed to exist). Use Boyer-Moore Voting Algorithm for O(n) time and O(1) space.",
+      "semi_structured": "Implement majority element using Boyer-Moore voting in Python.",
+      "minimal": "majority element python boyer moore"
+    }
+  },
+  {
+    "id": "A035",
+    "category": "Algorithm",
+    "title": "Product Except Self",
+    "function_name": "product_except_self",
+    "prompts": {
+      "structured": "Implement product_except_self(nums: list[int]) -> list[int] in Python. Return an array where each element is the product of all other elements. Do not use division. O(n) time, O(1) extra space (output array not counted).",
+      "semi_structured": "Implement product of array except self without division in Python.",
+      "minimal": "product except self python no division"
+    }
+  },
+  {
+    "id": "A036",
+    "category": "Algorithm",
+    "title": "Trapping Rain Water",
+    "function_name": "trapping_rain_water",
+    "prompts": {
+      "structured": "Implement trap(height: list[int]) -> int in Python. Compute the total water trapped after raining given an elevation map. Use two-pointer technique for O(n) time and O(1) space.",
+      "semi_structured": "Solve trapping rain water problem in Python.",
+      "minimal": "trapping rain water python"
+    }
+  },
+  {
+    "id": "A037",
+    "category": "Algorithm",
+    "title": "Sliding Window Maximum",
+    "function_name": "sliding_window_max",
+    "prompts": {
+      "structured": "Implement max_sliding_window(nums: list[int], k: int) -> list[int] in Python. Return the maximum value in each sliding window of size k. Use a deque (monotonic queue) for O(n) time.",
+      "semi_structured": "Implement sliding window maximum using deque in Python.",
+      "minimal": "sliding window max deque python"
+    }
+  },
+  {
+    "id": "A038",
+    "category": "Algorithm",
+    "title": "Number of Islands",
+    "function_name": "number_of_islands",
+    "prompts": {
+      "structured": "Implement num_islands(grid: list[list[str]]) -> int in Python. Given a 2D grid of '1' (land) and '0' (water), count the number of islands. Use DFS/BFS. O(m*n) time and space.",
+      "semi_structured": "Count number of islands in a 2D grid in Python.",
+      "minimal": "number of islands python dfs"
+    }
+  },
+  {
+    "id": "D001",
+    "category": "Debugging",
+    "title": "Debug Merge Sort",
+    "function_name": "debug_merge_sort",
+    "prompts": {
+      "structured": "The following Python merge sort implementation contains a bug that causes incorrect sorting for arrays with duplicate elements. Identify the bug, explain its root cause, and provide the corrected function.\n\ndef merge_sort(arr):\n    if len(arr) <= 1:\n        return arr\n    mid = len(arr) // 2\n    left = merge_sort(arr[:mid])\n    right = merge_sort(arr[mid:])\n    return merge(left, right)\n\ndef merge(l, r):\n    result = []\n    i = j = 0\n    while i < len(l) and j < len(r):\n        if l[i] < r[j]:  # BUG: should be <=\n            result.append(l[i]); i += 1\n        else:\n            result.append(r[j]); j += 1\n    result += l[i:]\n    result += r[j:]\n    return result",
+      "semi_structured": "Fix the bug in this merge sort implementation that fails on duplicate elements.",
+      "minimal": "debug merge sort duplicates python"
+    }
+  },
+  {
+    "id": "D002",
+    "category": "Debugging",
+    "title": "Debug Binary Search",
+    "function_name": "debug_binary_search",
+    "prompts": {
+      "structured": "The following binary search has an off-by-one error causing infinite loops. Identify and fix the bug. Explain why the original condition is wrong.\n\ndef binary_search(arr, target):\n    lo, hi = 0, len(arr)\n    while lo < hi:\n        mid = (lo + hi) // 2\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            lo = mid  # BUG\n        else:\n            hi = mid\n    return -1",
+      "semi_structured": "Fix the infinite loop bug in this binary search function.",
+      "minimal": "debug binary search infinite loop python"
+    }
+  },
+  {
+    "id": "D003",
+    "category": "Debugging",
+    "title": "Debug Fibonacci Overflow",
+    "function_name": "debug_fibonacci_overflow",
+    "prompts": {
+      "structured": "This recursive fibonacci implementation is extremely slow for large n due to exponential time complexity. Identify the performance bug, explain why it is O(2^n), and rewrite it using memoisation to achieve O(n).\n\ndef fib(n):\n    if n <= 1:\n        return n\n    return fib(n-1) + fib(n-2)",
+      "semi_structured": "Fix the performance issue in this recursive fibonacci function using memoisation.",
+      "minimal": "debug slow fibonacci python memoization"
+    }
+  },
+  {
+    "id": "D004",
+    "category": "Debugging",
+    "title": "Debug Reverse Linked List",
+    "function_name": "debug_reverse_linked_list",
+    "prompts": {
+      "structured": "The following function to reverse a linked list loses nodes. Identify the bug and fix it.\n\nclass Node:\n    def __init__(self, val): self.val = val; self.next = None\n\ndef reverse(head):\n    prev = None\n    curr = head\n    while curr:\n        curr.next = prev  # BUG: next pointer lost before reassignment\n        prev = curr\n        curr = curr.next\n    return prev",
+      "semi_structured": "Fix the node-losing bug in this linked list reversal function.",
+      "minimal": "debug reverse linked list python"
+    }
+  },
+  {
+    "id": "D005",
+    "category": "Debugging",
+    "title": "Debug Stack Overflow",
+    "function_name": "debug_stack_overflow",
+    "prompts": {
+      "structured": "This recursive function to compute power raises RecursionError for large exponents. Identify the issue and rewrite iteratively.\n\ndef power(base, exp):\n    if exp == 0:\n        return 1\n    return base * power(base, exp - 1)",
+      "semi_structured": "Rewrite this recursive power function iteratively to avoid stack overflow.",
+      "minimal": "debug recursive power python stack overflow"
+    }
+  },
+  {
+    "id": "D006",
+    "category": "Debugging",
+    "title": "Debug Index Error",
+    "function_name": "debug_index_error",
+    "prompts": {
+      "structured": "This function to find the second largest element throws IndexError on lists with fewer than 2 unique elements. Fix all edge cases.\n\ndef second_largest(nums):\n    unique = sorted(set(nums), reverse=True)\n    return unique[1]  # BUG: no guard for len(unique) < 2",
+      "semi_structured": "Fix the IndexError in this second largest element function.",
+      "minimal": "debug second largest index error python"
+    }
+  },
+  {
+    "id": "D007",
+    "category": "Debugging",
+    "title": "Debug Off-by-One in Loop",
+    "function_name": "debug_off_by_one",
+    "prompts": {
+      "structured": "This function to find all subarrays of size k has an off-by-one error causing it to miss the last window. Identify and fix.\n\ndef subarrays(arr, k):\n    result = []\n    for i in range(len(arr) - k):  # BUG: should be len(arr)-k+1\n        result.append(arr[i:i+k])\n    return result",
+      "semi_structured": "Fix the off-by-one error in this sliding window subarray function.",
+      "minimal": "debug off by one sliding window python"
+    }
+  },
+  {
+    "id": "D008",
+    "category": "Debugging",
+    "title": "Debug Mutable Default Argument",
+    "function_name": "debug_mutable_default",
+    "prompts": {
+      "structured": "This function accumulates results incorrectly across calls due to a classic Python pitfall. Identify the bug and explain it.\n\ndef append_to(element, to=[]):  # BUG: mutable default\n    to.append(element)\n    return to",
+      "semi_structured": "Fix the mutable default argument bug in this Python function.",
+      "minimal": "debug mutable default argument python"
+    }
+  },
+  {
+    "id": "D009",
+    "category": "Debugging",
+    "title": "Debug Shallow Copy",
+    "function_name": "debug_shallow_copy",
+    "prompts": {
+      "structured": "This function to rotate a 2D matrix modifies the original matrix unexpectedly. Identify the shallow copy bug and fix it.\n\ndef rotate_matrix(matrix):\n    n = len(matrix)\n    result = [matrix[i] for i in range(n)]  # BUG: shallow copy\n    for i in range(n):\n        for j in range(i+1, n):\n            result[i][j], result[j][i] = result[j][i], result[i][j]\n    return result",
+      "semi_structured": "Fix the shallow copy bug in this matrix rotation function.",
+      "minimal": "debug shallow copy 2d list python"
+    }
+  },
+  {
+    "id": "D010",
+    "category": "Debugging",
+    "title": "Debug Division by Zero",
+    "function_name": "debug_zero_division",
+    "prompts": {
+      "structured": "This function computing average of a list crashes on empty input. Add proper error handling.\n\ndef average(nums):\n    return sum(nums) / len(nums)  # BUG: ZeroDivisionError if empty",
+      "semi_structured": "Fix the zero division error in this average function for empty lists.",
+      "minimal": "debug zero division empty list python"
+    }
+  },
+  {
+    "id": "D011",
+    "category": "Debugging",
+    "title": "Debug Type Error",
+    "function_name": "debug_type_error",
+    "prompts": {
+      "structured": "This function concatenating mixed types raises TypeError. Fix it to handle integers and strings gracefully.\n\ndef concat_all(items):\n    result = ''\n    for item in items:\n        result += item  # BUG: TypeError if item is int\n    return result",
+      "semi_structured": "Fix the TypeError in this string concatenation function that receives mixed types.",
+      "minimal": "debug type error string concat python"
+    }
+  },
+  {
+    "id": "D012",
+    "category": "Debugging",
+    "title": "Debug Logical Operator",
+    "function_name": "debug_logic_and_or",
+    "prompts": {
+      "structured": "This function to check if a number is outside the range [low, high] returns wrong results. Find the logic bug.\n\ndef outside_range(n, low, high):\n    return n < low and n > high  # BUG: should be 'or'",
+      "semi_structured": "Fix the logical operator bug in this range checking function.",
+      "minimal": "debug and or logical operator python"
+    }
+  },
+  {
+    "id": "D013",
+    "category": "Debugging",
+    "title": "Debug Wrong Return Value",
+    "function_name": "debug_wrong_return",
+    "prompts": {
+      "structured": "This function to check if a list is sorted in ascending order returns the wrong boolean in certain cases. Fix it.\n\ndef is_sorted(arr):\n    for i in range(len(arr) - 1):\n        if arr[i] > arr[i+1]:\n            return False\n    return True  # actually correct - but add handling for empty/single-element",
+      "semi_structured": "Review and fix this is_sorted function including edge cases.",
+      "minimal": "debug is sorted function python"
+    }
+  },
+  {
+    "id": "D014",
+    "category": "Debugging",
+    "title": "Debug Infinite Loop",
+    "function_name": "debug_infinite_loop",
+    "prompts": {
+      "structured": "This while loop to find the next power of 2 loops infinitely for n=1. Identify and fix.\n\ndef next_power_of_2(n):\n    p = 1\n    while p < n:  # BUG: for n=1, p starts at 1 which is not < 1\n        p *= 2\n    return p",
+      "semi_structured": "Fix the infinite loop in this next power of 2 function.",
+      "minimal": "debug next power of 2 infinite loop python"
+    }
+  },
+  {
+    "id": "D015",
+    "category": "Debugging",
+    "title": "Debug Key Error",
+    "function_name": "debug_key_error",
+    "prompts": {
+      "structured": "This word frequency counter raises KeyError on the first occurrence of each word. Fix it.\n\ndef word_freq(text):\n    freq = {}\n    for word in text.split():\n        freq[word] += 1  # BUG: KeyError on first occurrence\n    return freq",
+      "semi_structured": "Fix the KeyError in this word frequency counter.",
+      "minimal": "debug key error dict counter python"
+    }
+  },
+  {
+    "id": "D016",
+    "category": "Debugging",
+    "title": "Debug Sort Key",
+    "function_name": "debug_wrong_sort_key",
+    "prompts": {
+      "structured": "This function sorts a list of dicts by the 'age' key but silently produces wrong order when age values are stored as strings. Fix it.\n\ndef sort_by_age(people):\n    return sorted(people, key=lambda x: x['age'])  # BUG: string sort '9' > '10'",
+      "semi_structured": "Fix the sort key bug when age values are stored as strings.",
+      "minimal": "debug sort string int key python"
+    }
+  },
+  {
+    "id": "D017",
+    "category": "Debugging",
+    "title": "Debug Variable Scope",
+    "function_name": "debug_scope_issue",
+    "prompts": {
+      "structured": "This function to count vowels always returns 0 due to a scoping error. Identify and fix.\n\ndef count_vowels(s):\n    count = 0\n    for ch in s:\n        if ch.lower() in 'aeiou':\n            count = count + 1  # actually fine; check for reassignment bug below\n    return count\n# Real bug: student version uses 'count == 0' (comparison) inside loop",
+      "semi_structured": "Fix the variable scope/assignment bug in this vowel counter.",
+      "minimal": "debug scope variable python"
+    }
+  },
+  {
+    "id": "D018",
+    "category": "Debugging",
+    "title": "Debug Float Precision",
+    "function_name": "debug_float_precision",
+    "prompts": {
+      "structured": "This function to compare two floating-point numbers for equality fails intermittently due to precision issues. Fix it using epsilon comparison.\n\ndef is_equal(a, b):\n    return a == b  # BUG: float precision",
+      "semi_structured": "Fix floating point equality comparison using epsilon tolerance in Python.",
+      "minimal": "debug float precision equality python"
+    }
+  },
+  {
+    "id": "D019",
+    "category": "Debugging",
+    "title": "Debug None Check",
+    "function_name": "debug_none_check",
+    "prompts": {
+      "structured": "This function processing an optional list parameter crashes with TypeError when None is passed. Add a proper guard.\n\ndef sum_list(nums):\n    return sum(nums)  # BUG: crashes if nums is None",
+      "semi_structured": "Add None guard to this list processing function.",
+      "minimal": "debug none check python"
+    }
+  },
+  {
+    "id": "D020",
+    "category": "Debugging",
+    "title": "Debug Recursion Base Case",
+    "function_name": "debug_recursion_base_case",
+    "prompts": {
+      "structured": "This recursive function to count down to 0 has a missing base case causing infinite recursion for negative inputs. Fix it.\n\ndef countdown(n):\n    if n == 0:  # BUG: doesn't handle n < 0\n        return\n    print(n)\n    countdown(n - 1)",
+      "semi_structured": "Fix the missing base case in this recursive countdown function.",
+      "minimal": "debug recursion base case python"
+    }
+  },
+  {
+    "id": "D021",
+    "category": "Debugging",
+    "title": "Debug List Mutation",
+    "function_name": "debug_list_mutation",
+    "prompts": {
+      "structured": "This function removes even numbers from a list but skips elements due to mutating the list during iteration. Fix it.\n\ndef remove_evens(nums):\n    for n in nums:\n        if n % 2 == 0:\n            nums.remove(n)  # BUG: modifying list during iteration\n    return nums",
+      "semi_structured": "Fix the list mutation during iteration bug in this even-number removal function.",
+      "minimal": "debug list mutation iteration python"
+    }
+  },
+  {
+    "id": "D022",
+    "category": "Debugging",
+    "title": "Debug String Immutability",
+    "function_name": "debug_string_immutability",
+    "prompts": {
+      "structured": "This function attempts to reverse a string by modifying characters by index and raises TypeError. Fix it.\n\ndef reverse_string(s):\n    for i in range(len(s) // 2):\n        s[i], s[len(s)-1-i] = s[len(s)-1-i], s[i]  # BUG: strings are immutable\n    return s",
+      "semi_structured": "Fix the string immutability bug in this reversal function.",
+      "minimal": "debug string immutability python"
+    }
+  },
+  {
+    "id": "D023",
+    "category": "Debugging",
+    "title": "Debug Wrong Modulo",
+    "function_name": "debug_wrong_modulo",
+    "prompts": {
+      "structured": "This FizzBuzz function produces wrong output because of operator precedence error. Fix it.\n\ndef fizzbuzz(n):\n    for i in range(1, n+1):\n        if i % 3 == 0 and i % 5 == 0:\n            print('FizzBuzz')\n        elif i % 3 == 0:\n            print('Fizz')\n        elif i % 5 == 0:\n            print('Buzz')\n        else:\n            print(i)  # actually correct; introduce a real bug\n# Bug: student version checks i % 3+5 == 0 instead of (i%3==0 and i%5==0)",
+      "semi_structured": "Fix the operator precedence bug in this FizzBuzz implementation.",
+      "minimal": "debug fizzbuzz operator precedence python"
+    }
+  },
+  {
+    "id": "D024",
+    "category": "Debugging",
+    "title": "Debug Dict Mutation",
+    "function_name": "debug_dict_iteration",
+    "prompts": {
+      "structured": "This function that removes keys with None values from a dict raises RuntimeError due to dict size change during iteration. Fix it.\n\ndef remove_none(d):\n    for k in d:\n        if d[k] is None:\n            del d[k]  # BUG: RuntimeError: dictionary changed size\n    return d",
+      "semi_structured": "Fix the dictionary mutation during iteration error.",
+      "minimal": "debug dict mutation iteration python"
+    }
+  },
+  {
+    "id": "D025",
+    "category": "Debugging",
+    "title": "Debug Class Method",
+    "function_name": "debug_class_method",
+    "prompts": {
+      "structured": "This Counter class has a bug where all instances share the same count. Identify the class-level vs instance-level attribute bug and fix it.\n\nclass Counter:\n    count = 0  # BUG: class variable shared across instances\n    def increment(self):\n        Counter.count += 1\n    def get(self):\n        return Counter.count",
+      "semi_structured": "Fix the shared class variable bug in this Counter class.",
+      "minimal": "debug class vs instance variable python"
+    }
+  },
+  {
+    "id": "D026",
+    "category": "Debugging",
+    "title": "Debug Swallowed Exception",
+    "function_name": "debug_exception_swallowed",
+    "prompts": {
+      "structured": "This function silently swallows all exceptions making debugging impossible. Refactor to catch only expected exceptions and re-raise others.\n\ndef parse_int(s):\n    try:\n        return int(s)\n    except:  # BUG: bare except swallows all\n        return None",
+      "semi_structured": "Fix the bare except clause that swallows all exceptions.",
+      "minimal": "debug bare except python"
+    }
+  },
+  {
+    "id": "D027",
+    "category": "Debugging",
+    "title": "Debug Generator Exhaustion",
+    "function_name": "debug_generator_exhaustion",
+    "prompts": {
+      "structured": "This code prints the same generator output twice but the second print is empty. Explain why and fix it.\n\ndef gen_squares(n):\n    for i in range(n): yield i*i\n\nsq = gen_squares(5)\nprint(list(sq))   # [0,1,4,9,16]\nprint(list(sq))   # BUG: [] - generator exhausted",
+      "semi_structured": "Fix the generator exhaustion bug by resetting or recreating the generator.",
+      "minimal": "debug generator exhaustion python"
+    }
+  },
+  {
+    "id": "D028",
+    "category": "Debugging",
+    "title": "Debug Nonlocal Variable",
+    "function_name": "debug_nonlocal",
+    "prompts": {
+      "structured": "This closure-based counter always returns 1 because the inner function creates a new local variable instead of modifying the enclosing one. Fix using nonlocal.\n\ndef make_counter():\n    count = 0\n    def increment():\n        count = count + 1  # BUG: UnboundLocalError / doesn't use nonlocal\n        return count\n    return increment",
+      "semi_structured": "Fix the closure bug in this counter function using nonlocal.",
+      "minimal": "debug nonlocal closure python"
+    }
+  },
+  {
+    "id": "D029",
+    "category": "Debugging",
+    "title": "Debug Sort Stability",
+    "function_name": "debug_sort_stability",
+    "prompts": {
+      "structured": "This function sorts students by grade then by name but the secondary sort key is applied incorrectly. Fix the multi-key sort.\n\ndef sort_students(students):\n    students.sort(key=lambda s: s['grade'])  # BUG: loses name order\n    students.sort(key=lambda s: s['name'])   # overwrites grade sort\n    return students",
+      "semi_structured": "Fix the multi-key sort so students are sorted by grade then name.",
+      "minimal": "debug multi key sort python"
+    }
+  },
+  {
+    "id": "D030",
+    "category": "Debugging",
+    "title": "Debug Deque as Queue",
+    "function_name": "debug_deque_index",
+    "prompts": {
+      "structured": "This queue implementation using a list is O(n) for dequeue. Identify the performance bug and rewrite using collections.deque.\n\nclass Queue:\n    def __init__(self): self.items = []\n    def enqueue(self, x): self.items.append(x)\n    def dequeue(self): return self.items.pop(0)  # BUG: O(n)",
+      "semi_structured": "Fix the O(n) dequeue performance issue by switching to collections.deque.",
+      "minimal": "debug queue pop(0) performance python"
+    }
+  },
+  {
+    "id": "D031",
+    "category": "Debugging",
+    "title": "Debug Greedy Regex",
+    "function_name": "debug_regex_greedy",
+    "prompts": {
+      "structured": "This regex to extract HTML tags greedily matches too much. Fix it using a non-greedy quantifier.\n\nimport re\ndef extract_tags(html):\n    return re.findall(r'<.+>', html)  # BUG: greedy, matches across tags",
+      "semi_structured": "Fix the greedy regex to use non-greedy matching for HTML tags.",
+      "minimal": "debug greedy regex python non-greedy"
+    }
+  },
+  {
+    "id": "D032",
+    "category": "Debugging",
+    "title": "Debug Encoding Error",
+    "function_name": "debug_encoding_error",
+    "prompts": {
+      "structured": "This file reading function raises UnicodeDecodeError on non-ASCII files. Fix it by specifying UTF-8 encoding and handling errors.\n\ndef read_file(path):\n    with open(path) as f:  # BUG: no encoding specified\n        return f.read()",
+      "semi_structured": "Fix the encoding error in this file reading function.",
+      "minimal": "debug unicode decode error file python"
+    }
+  },
+  {
+    "id": "D033",
+    "category": "Debugging",
+    "title": "Debug Circular Import Pattern",
+    "function_name": "debug_circular_import",
+    "prompts": {
+      "structured": "Two modules import each other causing an ImportError. Explain the circular import problem and provide a refactored solution that breaks the cycle by using local imports or restructuring.",
+      "semi_structured": "Fix a circular import error between two Python modules.",
+      "minimal": "debug circular import python"
+    }
+  },
+  {
+    "id": "D034",
+    "category": "Debugging",
+    "title": "Debug Memory Leak Pattern",
+    "function_name": "debug_memory_leak",
+    "prompts": {
+      "structured": "This code appends to a global list inside a loop causing unbounded memory growth. Identify the leak and fix it by clearing or yielding results.\n\nresults = []\ndef process(items):\n    for item in items:\n        results.append(item * 2)  # BUG: global list grows forever",
+      "semi_structured": "Fix the memory leak caused by unbounded global list growth.",
+      "minimal": "debug memory leak global list python"
+    }
+  },
+  {
+    "id": "D035",
+    "category": "Debugging",
+    "title": "Debug Thread Safety",
+    "function_name": "debug_race_condition",
+    "prompts": {
+      "structured": "This shared counter is not thread-safe and produces incorrect results under concurrent access. Fix it using threading.Lock.\n\nimport threading\nclass SharedCounter:\n    def __init__(self): self.count = 0\n    def increment(self): self.count += 1  # BUG: not atomic",
+      "semi_structured": "Fix the thread safety issue in this shared counter using a lock.",
+      "minimal": "debug thread safety lock python"
+    }
+  },
+  {
+    "id": "D036",
+    "category": "Debugging",
+    "title": "Debug API Error Handling",
+    "function_name": "debug_api_error_handling",
+    "prompts": {
+      "structured": "This function calls an external API but crashes when the network is unavailable or returns non-200. Add proper error handling with retries.\n\nimport requests\ndef get_data(url):\n    response = requests.get(url)  # BUG: no error handling\n    return response.json()",
+      "semi_structured": "Add proper error handling and retries to this API calling function.",
+      "minimal": "debug requests error handling python"
+    }
+  },
+  {
+    "id": "D037",
+    "category": "Debugging",
+    "title": "Debug Pandas Chaining",
+    "function_name": "debug_pandas_chaining",
+    "prompts": {
+      "structured": "This pandas operation uses chained indexing causing SettingWithCopyWarning and silent failures. Fix using .loc.\n\nimport pandas as pd\ndef update_age(df):\n    df[df['name']=='Alice']['age'] = 30  # BUG: chained indexing\n    return df",
+      "semi_structured": "Fix the pandas chained indexing warning using .loc.",
+      "minimal": "debug pandas settingwithcopywarning loc python"
+    }
+  },
+  {
+    "id": "D038",
+    "category": "Debugging",
+    "title": "Debug JSON Decode",
+    "function_name": "debug_json_decode",
+    "prompts": {
+      "structured": "This function crashes with json.JSONDecodeError on malformed API responses. Add error handling and a fallback.\n\nimport json\ndef parse_response(text):\n    return json.loads(text)  # BUG: no error handling",
+      "semi_structured": "Add JSONDecodeError handling to this JSON parsing function.",
+      "minimal": "debug json decode error python"
+    }
+  },
+  {
+    "id": "O001",
+    "category": "Optimisation",
+    "title": "Optimise Duplicate Detection",
+    "function_name": "opt_find_duplicates",
+    "prompts": {
+      "structured": "Optimise the following O(n^2) duplicate detection function to O(n) time using a hash set. Preserve the return value (list of duplicates).\n\ndef find_duplicates(arr):\n    dups = []\n    for i in range(len(arr)):\n        for j in range(i+1, len(arr)):\n            if arr[i] == arr[j] and arr[i] not in dups:\n                dups.append(arr[i])\n    return dups",
+      "semi_structured": "Optimise this O(n^2) duplicate detection to O(n) using a hash set.",
+      "minimal": "optimise duplicate detection python O(n)"
+    }
+  },
+  {
+    "id": "O002",
+    "category": "Optimisation",
+    "title": "Optimise String Concatenation",
+    "function_name": "opt_string_concat",
+    "prompts": {
+      "structured": "Optimise the following string concatenation function that is O(n^2) due to string immutability. Use a list buffer and join() to achieve O(n).\n\ndef build_string(chars):\n    result = ''\n    for c in chars:\n        result += c\n    return result",
+      "semi_structured": "Optimise string concatenation using join() instead of += in Python.",
+      "minimal": "optimise string concat join python"
+    }
+  },
+  {
+    "id": "O003",
+    "category": "Optimisation",
+    "title": "Optimise Linear Search",
+    "function_name": "opt_linear_search",
+    "prompts": {
+      "structured": "The following function searches a sorted list using linear scan (O(n)). Refactor to use binary search (O(log n)). Preserve the return interface.\n\ndef search(arr, target):\n    for i, x in enumerate(arr):\n        if x == target:\n            return i\n    return -1",
+      "semi_structured": "Replace linear search with binary search on sorted list in Python.",
+      "minimal": "optimise linear search binary search python"
+    }
+  },
+  {
+    "id": "O004",
+    "category": "Optimisation",
+    "title": "Optimise Nested Loops",
+    "function_name": "opt_nested_loops",
+    "prompts": {
+      "structured": "Optimise this O(n^3) function that checks if any triplet in an array sums to zero. Reduce to O(n^2) using sorting and two pointers.\n\ndef three_sum(nums):\n    result = []\n    n = len(nums)\n    for i in range(n):\n        for j in range(i+1, n):\n            for k in range(j+1, n):\n                if nums[i]+nums[j]+nums[k] == 0:\n                    result.append([nums[i],nums[j],nums[k]])\n    return result",
+      "semi_structured": "Optimise 3-sum from O(n^3) to O(n^2) using two pointers.",
+      "minimal": "optimise 3sum O(n^2) python"
+    }
+  },
+  {
+    "id": "O005",
+    "category": "Optimisation",
+    "title": "Eliminate Repeated Computation",
+    "function_name": "opt_repeated_computation",
+    "prompts": {
+      "structured": "Optimise this function that recomputes len(s) in every iteration of the loop. Cache it before the loop.\n\ndef count_chars(s, char):\n    count = 0\n    for i in range(len(s)):  # len(s) called each iteration\n        if s[i] == char:\n            count += 1\n    return count",
+      "semi_structured": "Cache the len() call outside the loop to avoid repeated computation.",
+      "minimal": "optimise cache len python"
+    }
+  },
+  {
+    "id": "O006",
+    "category": "Optimisation",
+    "title": "Replace Bubble Sort with Heapsort",
+    "function_name": "opt_bubble_to_heap",
+    "prompts": {
+      "structured": "Replace the O(n^2) bubble sort in this top-k function with heapq.nlargest for O(n log k) time. The function returns the k largest elements.\n\ndef top_k(arr, k):\n    arr.sort(reverse=True)  # O(n log n) but can use heap for O(n log k)\n    return arr[:k]",
+      "semi_structured": "Use heapq.nlargest to optimise finding top-k elements.",
+      "minimal": "optimise top k heapq python"
+    }
+  },
+  {
+    "id": "O007",
+    "category": "Optimisation",
+    "title": "Memoize Fibonacci",
+    "function_name": "opt_memo_fib",
+    "prompts": {
+      "structured": "Add memoisation to this exponential-time recursive fibonacci using functools.lru_cache. Show both the decorator approach and a manual dict cache approach.\n\ndef fib(n):\n    if n <= 1: return n\n    return fib(n-1) + fib(n-2)",
+      "semi_structured": "Add memoization to recursive fibonacci using lru_cache.",
+      "minimal": "memoize fibonacci python lru_cache"
+    }
+  },
+  {
+    "id": "O008",
+    "category": "Optimisation",
+    "title": "Optimise List Membership Test",
+    "function_name": "opt_set_lookup",
+    "prompts": {
+      "structured": "Optimise this function that repeatedly checks membership in a list (O(n) per check) by converting it to a set (O(1) per check).\n\ndef filter_items(items, blocklist):\n    return [x for x in items if x not in blocklist]  # O(n*m)",
+      "semi_structured": "Convert list membership test to set for O(1) lookups.",
+      "minimal": "optimise list in set lookup python"
+    }
+  },
+  {
+    "id": "O009",
+    "category": "Optimisation",
+    "title": "Use Generator Instead of List",
+    "function_name": "opt_generator_memory",
+    "prompts": {
+      "structured": "Optimise this function that builds an entire list in memory before returning. Convert it to a generator using yield to reduce memory from O(n) to O(1).\n\ndef squares(n):\n    result = []\n    for i in range(n):\n        result.append(i * i)\n    return result",
+      "semi_structured": "Convert this list-building function to a memory-efficient generator.",
+      "minimal": "optimise generator yield python"
+    }
+  },
+  {
+    "id": "O010",
+    "category": "Optimisation",
+    "title": "Use Dict Comprehension",
+    "function_name": "opt_dict_comprehension",
+    "prompts": {
+      "structured": "Optimise this function building a frequency dict using an explicit loop. Rewrite using a dict comprehension and then using collections.Counter. Compare both.\n\ndef char_freq(s):\n    freq = {}\n    for c in s:\n        if c in freq:\n            freq[c] += 1\n        else:\n            freq[c] = 1\n    return freq",
+      "semi_structured": "Rewrite this frequency counter using Counter or dict comprehension.",
+      "minimal": "optimise frequency counter python collections"
+    }
+  },
+  {
+    "id": "O011",
+    "category": "Optimisation",
+    "title": "Add Early Exit",
+    "function_name": "opt_early_exit",
+    "prompts": {
+      "structured": "Optimise this function that checks if all elements are positive by adding an early exit when a non-positive is found instead of building a full boolean list.\n\ndef all_positive(nums):\n    results = [x > 0 for x in nums]\n    return all(results)  # creates full list before evaluating",
+      "semi_structured": "Add early exit to avoid building a full list before checking condition.",
+      "minimal": "optimise early exit all() python"
+    }
+  },
+  {
+    "id": "O012",
+    "category": "Optimisation",
+    "title": "Optimise N+1 Query Pattern",
+    "function_name": "opt_batch_db_query",
+    "prompts": {
+      "structured": "The following code makes N separate database calls inside a loop (N+1 problem). Rewrite using a single batch fetch function get_users_batch(ids: list) -> list to reduce to 1 query.\n\ndef get_user_names(user_ids):\n    names = []\n    for uid in user_ids:\n        user = get_user(uid)  # N separate DB calls\n        names.append(user['name'])\n    return names",
+      "semi_structured": "Fix the N+1 query problem by batching database calls.",
+      "minimal": "optimise N+1 query batch python"
+    }
+  },
+  {
+    "id": "O013",
+    "category": "Optimisation",
+    "title": "Cache Matrix Row Access",
+    "function_name": "opt_matrix_cache",
+    "prompts": {
+      "structured": "Optimise this matrix operation that repeatedly indexes into a row inside an inner loop. Cache the row reference outside the inner loop.\n\ndef row_sums(matrix):\n    sums = []\n    for i in range(len(matrix)):\n        total = 0\n        for j in range(len(matrix[i])):\n            total += matrix[i][j]  # matrix[i] looked up each time\n        sums.append(total)\n    return sums",
+      "semi_structured": "Cache row reference outside inner loop to reduce repeated indexing.",
+      "minimal": "optimise matrix row cache python"
+    }
+  },
+  {
+    "id": "O014",
+    "category": "Optimisation",
+    "title": "Pre-compile Regex",
+    "function_name": "opt_regex_compile",
+    "prompts": {
+      "structured": "Optimise this function that calls re.match with the same pattern inside a loop. Compile the pattern outside the loop using re.compile().\n\nimport re\ndef filter_emails(texts):\n    return [t for t in texts if re.match(r'^[\\w.+-]+@[\\w-]+\\.[\\w.]+$', t)]",
+      "semi_structured": "Pre-compile regex pattern outside the loop for performance.",
+      "minimal": "optimise regex compile python"
+    }
+  },
+  {
+    "id": "O015",
+    "category": "Optimisation",
+    "title": "Use zip Instead of Index",
+    "function_name": "opt_zip_instead_of_index",
+    "prompts": {
+      "structured": "Refactor this function that uses index-based parallel iteration to use zip() for cleaner and slightly faster code.\n\ndef dot_product(a, b):\n    total = 0\n    for i in range(len(a)):\n        total += a[i] * b[i]\n    return total",
+      "semi_structured": "Rewrite index-based parallel iteration using zip().",
+      "minimal": "optimise zip enumerate python"
+    }
+  },
+  {
+    "id": "O016",
+    "category": "Optimisation",
+    "title": "Vectorise with NumPy",
+    "function_name": "opt_numpy_vectorise",
+    "prompts": {
+      "structured": "Optimise this element-wise computation on a large list using NumPy array operations to replace the Python for loop. Show the speedup.\n\ndef normalise(data):\n    mean = sum(data) / len(data)\n    std = (sum((x-mean)**2 for x in data)/len(data))**0.5\n    return [(x - mean) / std for x in data]",
+      "semi_structured": "Vectorise this normalisation function using NumPy.",
+      "minimal": "optimise numpy vectorise normalise python"
+    }
+  },
+  {
+    "id": "O017",
+    "category": "Optimisation",
+    "title": "Use Deque for Rotation",
+    "function_name": "opt_deque_rotate",
+    "prompts": {
+      "structured": "Optimise this O(n) per-rotation array rotation that is called k times (total O(n*k)) to O(n) total using deque rotation or the reversal trick.\n\ndef rotate_k_times(arr, k):\n    for _ in range(k):\n        arr = [arr[-1]] + arr[:-1]  # O(n) per step\n    return arr",
+      "semi_structured": "Optimise repeated array rotation from O(n*k) to O(n).",
+      "minimal": "optimise array rotation deque python"
+    }
+  },
+  {
+    "id": "O018",
+    "category": "Optimisation",
+    "title": "Cache Expensive Function Calls",
+    "function_name": "opt_lru_expensive",
+    "prompts": {
+      "structured": "This API function is called repeatedly with the same arguments. Add functools.lru_cache with a maxsize of 128 to cache results. Handle unhashable arguments.\n\ndef fetch_exchange_rate(currency, date):\n    # Simulates an expensive network call\n    import time; time.sleep(0.5)\n    return 1.25",
+      "semi_structured": "Add LRU cache to avoid repeated expensive function calls.",
+      "minimal": "optimise lru cache expensive calls python"
+    }
+  },
+  {
+    "id": "O019",
+    "category": "Optimisation",
+    "title": "Early Termination in Sort Check",
+    "function_name": "opt_is_sorted_early",
+    "prompts": {
+      "structured": "Optimise this is_sorted check that always scans the full array. Add early termination when an out-of-order pair is found.\n\ndef is_sorted(arr):\n    return arr == sorted(arr)  # O(n log n), creates a copy",
+      "semi_structured": "Optimise is_sorted to O(n) with early termination.",
+      "minimal": "optimise is_sorted O(n) early exit python"
+    }
+  },
+  {
+    "id": "O020",
+    "category": "Optimisation",
+    "title": "Use Counter.most_common",
+    "function_name": "opt_counter_most_common",
+    "prompts": {
+      "structured": "Optimise this function that finds the most frequent element by sorting the entire frequency dict. Use Counter.most_common(1) instead.\n\nfrom collections import Counter\ndef most_frequent(arr):\n    freq = Counter(arr)\n    return sorted(freq, key=freq.get, reverse=True)[0]  # O(n log n)",
+      "semi_structured": "Use Counter.most_common(1) instead of sorting to find most frequent element.",
+      "minimal": "optimise most frequent counter most_common python"
+    }
+  },
+  {
+    "id": "O021",
+    "category": "Optimisation",
+    "title": "Reduce List Appends",
+    "function_name": "opt_reduce_append",
+    "prompts": {
+      "structured": "Optimise this function that builds a list by individual appends in a loop. Use a list comprehension for cleaner and faster code.\n\ndef double_evens(nums):\n    result = []\n    for n in nums:\n        if n % 2 == 0:\n            result.append(n * 2)\n    return result",
+      "semi_structured": "Replace explicit loop appends with a list comprehension.",
+      "minimal": "optimise list comprehension python"
+    }
+  },
+  {
+    "id": "O022",
+    "category": "Optimisation",
+    "title": "Use any() for Short Circuiting",
+    "function_name": "opt_any_short_circuit",
+    "prompts": {
+      "structured": "Replace this loop that searches for a condition with Python's built-in any() for cleaner code and short-circuit evaluation.\n\ndef has_negative(nums):\n    for n in nums:\n        if n < 0:\n            return True\n    return False",
+      "semi_structured": "Replace manual loop with any() for short-circuit evaluation.",
+      "minimal": "optimise any all python short circuit"
+    }
+  },
+  {
+    "id": "O023",
+    "category": "Optimisation",
+    "title": "Use bisect for Sorted Insertion",
+    "function_name": "opt_bisect",
+    "prompts": {
+      "structured": "Optimise this function that maintains a sorted list by appending and re-sorting (O(n log n) per insert). Use bisect.insort for O(n) insert (O(log n) search + O(n) shift).\n\ndef insert_sorted(sorted_list, value):\n    sorted_list.append(value)\n    sorted_list.sort()\n    return sorted_list",
+      "semi_structured": "Use bisect.insort to maintain a sorted list instead of re-sorting.",
+      "minimal": "optimise bisect insort python"
+    }
+  },
+  {
+    "id": "O024",
+    "category": "Optimisation",
+    "title": "Use itertools.chain",
+    "function_name": "opt_chain_itertools",
+    "prompts": {
+      "structured": "Optimise this function that concatenates many lists by copying into a new list (O(total elements)). Use itertools.chain for lazy iteration with O(1) setup.\n\ndef flatten(lists):\n    result = []\n    for lst in lists:\n        result.extend(lst)\n    return result",
+      "semi_structured": "Use itertools.chain to lazily concatenate multiple lists.",
+      "minimal": "optimise itertools chain flatten python"
+    }
+  },
+  {
+    "id": "O025",
+    "category": "Optimisation",
+    "title": "Use __slots__ for Memory",
+    "function_name": "opt_slots",
+    "prompts": {
+      "structured": "Add __slots__ to this Point class that creates millions of instances to reduce per-instance memory overhead from __dict__.\n\nclass Point:\n    def __init__(self, x, y, z):\n        self.x = x\n        self.y = y\n        self.z = z",
+      "semi_structured": "Add __slots__ to a class to reduce memory footprint.",
+      "minimal": "optimise slots class memory python"
+    }
+  },
+  {
+    "id": "O026",
+    "category": "Optimisation",
+    "title": "Use Local Variable in Tight Loop",
+    "function_name": "opt_local_var",
+    "prompts": {
+      "structured": "Optimise this loop that looks up a global function (len) inside each iteration. Assign it to a local variable before the loop to reduce attribute lookups.\n\ndef count_long(words, min_len):\n    return [w for w in words if len(w) >= min_len]",
+      "semi_structured": "Cache global function reference in local variable for tight loop performance.",
+      "minimal": "optimise local variable global lookup python loop"
+    }
+  },
+  {
+    "id": "O027",
+    "category": "Optimisation",
+    "title": "Vectorise Pandas Apply",
+    "function_name": "opt_pandas_vectorise",
+    "prompts": {
+      "structured": "Optimise this pandas operation that uses slow row-wise apply() for a simple arithmetic transformation. Replace with a vectorised column operation.\n\nimport pandas as pd\ndef add_tax(df):\n    df['price_with_tax'] = df['price'].apply(lambda x: x * 1.18)\n    return df",
+      "semi_structured": "Replace pandas apply() with vectorised column arithmetic.",
+      "minimal": "optimise pandas apply vectorise python"
+    }
+  },
+  {
+    "id": "O028",
+    "category": "Optimisation",
+    "title": "Optimise File Processing",
+    "function_name": "opt_file_read_lines",
+    "prompts": {
+      "structured": "Optimise this function that reads all lines into memory before processing. Use a generator-based line iterator to process one line at a time in O(1) memory.\n\ndef count_matching(filepath, keyword):\n    lines = open(filepath).readlines()  # loads entire file\n    return sum(1 for line in lines if keyword in line)",
+      "semi_structured": "Process file line by line instead of loading all into memory.",
+      "minimal": "optimise file reading generator python"
+    }
+  },
+  {
+    "id": "O029",
+    "category": "Optimisation",
+    "title": "Use namedtuple Instead of Dict",
+    "function_name": "opt_tuple_instead_dict",
+    "prompts": {
+      "structured": "Replace this dict-based data structure used in a hot path with collections.namedtuple for faster attribute access and lower memory usage.\n\ndef make_point(x, y):\n    return {'x': x, 'y': y}  # dict overhead in hot path",
+      "semi_structured": "Replace dict with namedtuple for faster access in hot path.",
+      "minimal": "optimise namedtuple dict python"
+    }
+  },
+  {
+    "id": "O030",
+    "category": "Optimisation",
+    "title": "Optimise 'in' Operator on List",
+    "function_name": "opt_in_operator_set",
+    "prompts": {
+      "structured": "Optimise this function that checks membership in a list inside a loop. Convert the list to a set before the loop for O(1) lookups.\n\nblocked = ['spam', 'ads', 'promo', ...]\ndef filter_messages(messages):\n    return [m for m in messages if m['type'] not in blocked]",
+      "semi_structured": "Convert list to set before loop for O(1) membership tests.",
+      "minimal": "optimise in operator set list python"
+    }
+  },
+  {
+    "id": "O031",
+    "category": "Optimisation",
+    "title": "Use Walrus Operator",
+    "function_name": "opt_walrus_operator",
+    "prompts": {
+      "structured": "Refactor this code that calls an expensive function twice (once to check, once to use) using the Python 3.8 walrus operator := to call it only once.\n\ndef process(data):\n    if get_result(data) is not None:\n        result = get_result(data)  # called twice\n        return result * 2",
+      "semi_structured": "Use walrus operator := to avoid calling expensive function twice.",
+      "minimal": "optimise walrus operator python 3.8"
+    }
+  },
+  {
+    "id": "O032",
+    "category": "Optimisation",
+    "title": "Use cached_property",
+    "function_name": "opt_cache_property",
+    "prompts": {
+      "structured": "Optimise this class where an expensive computed property is recalculated on every access. Use functools.cached_property to compute it once and cache.\n\nclass Circle:\n    def __init__(self, r): self.r = r\n    @property\n    def area(self):\n        import math; return math.pi * self.r ** 2  # recomputed each access",
+      "semi_structured": "Use cached_property to avoid recomputing expensive property.",
+      "minimal": "optimise cached_property python"
+    }
+  },
+  {
+    "id": "O033",
+    "category": "Optimisation",
+    "title": "Batch File Writes",
+    "function_name": "opt_reduce_io",
+    "prompts": {
+      "structured": "Optimise this function that opens and writes to a file inside a loop (N file operations). Batch all data and write once.\n\ndef write_logs(entries, filepath):\n    for entry in entries:\n        with open(filepath, 'a') as f:  # opens file N times\n            f.write(entry + '\\n')",
+      "semi_structured": "Batch file writes to avoid opening the file N times.",
+      "minimal": "optimise batch file write python"
+    }
+  },
+  {
+    "id": "O034",
+    "category": "Optimisation",
+    "title": "Optimise SQL Queries",
+    "function_name": "opt_sql_in_clause",
+    "prompts": {
+      "structured": "Optimise this ORM code that runs N separate SQL queries in a loop. Rewrite using an IN clause or bulk fetch to run a single query.\n\ndef get_orders(order_ids):\n    return [db.query(Order).filter(Order.id == oid).first()\n            for oid in order_ids]  # N queries",
+      "semi_structured": "Replace N individual queries with a single IN clause query.",
+      "minimal": "optimise ORM N queries IN clause python"
+    }
+  },
+  {
+    "id": "O035",
+    "category": "Optimisation",
+    "title": "Avoid Mutable List Multiplication",
+    "function_name": "opt_list_multiplication",
+    "prompts": {
+      "structured": "Fix and optimise this 2D list initialisation that uses list multiplication (sharing references) and rewrite correctly using list comprehension.\n\nmatrix = [[0] * 3] * 3  # BUG: all rows share same reference\nmatrix[0][0] = 1  # changes all rows",
+      "semi_structured": "Fix the shared-reference bug and optimise 2D list initialisation.",
+      "minimal": "optimise 2d list initialisation python"
+    }
+  },
+  {
+    "id": "O036",
+    "category": "Optimisation",
+    "title": "Process Data in Chunks",
+    "function_name": "opt_chunk_processing",
+    "prompts": {
+      "structured": "Optimise this function that loads an entire large dataset into memory for processing. Refactor to process in chunks of size batch_size to limit memory usage.\n\ndef process_all(records):\n    results = []\n    for record in records:  # all in memory at once\n        results.append(transform(record))\n    return results",
+      "semi_structured": "Refactor to process large data in chunks to reduce memory usage.",
+      "minimal": "optimise chunk batch processing python memory"
+    }
+  },
+  {
+    "id": "O037",
+    "category": "Optimisation",
+    "title": "Use dict.get with Default",
+    "function_name": "opt_dict_get",
+    "prompts": {
+      "structured": "Optimise this try/except block used for dict key access with a default. Replace with dict.get(key, default) for cleaner, faster code.\n\ndef safe_get(d, key):\n    try:\n        return d[key]\n    except KeyError:\n        return None",
+      "semi_structured": "Replace try/except KeyError with dict.get() for cleaner default access.",
+      "minimal": "optimise dict get default python"
+    }
+  },
+  {
+    "id": "DOC001",
+    "category": "Documentation",
+    "title": "Document Merge Sort",
+    "function_name": "doc_merge_sort",
+    "prompts": {
+      "structured": "Generate a complete Python docstring for the merge_sort(arr: list[int]) -> list[int] function using the Google style guide. Include: one-line summary, Args section with type and description, Returns section, Raises section (ValueError for non-list input), Time Complexity, Space Complexity, and a usage Example.",
+      "semi_structured": "Write a Google-style docstring for the merge sort function.",
+      "minimal": "docstring merge sort python"
+    }
+  },
+  {
+    "id": "DOC002",
+    "category": "Documentation",
+    "title": "Document Binary Search",
+    "function_name": "doc_binary_search",
+    "prompts": {
+      "structured": "Generate a NumPy-style docstring for binary_search(arr: list[int], target: int) -> int. Include Parameters, Returns, Raises (for unsorted input), Notes on complexity, and Examples with expected output.",
+      "semi_structured": "Write a NumPy-style docstring for binary search.",
+      "minimal": "docstring binary search numpy style"
+    }
+  },
+  {
+    "id": "DOC003",
+    "category": "Documentation",
+    "title": "Document LinkedList Class",
+    "function_name": "doc_class_linkedlist",
+    "prompts": {
+      "structured": "Generate full class-level and method-level Google-style docstrings for a LinkedList class with methods: append(val), prepend(val), delete(val), search(val) -> Node, to_list() -> list. Include class-level attributes, method args/returns, and examples.",
+      "semi_structured": "Write class and method docstrings for a LinkedList class.",
+      "minimal": "docstring linked list class python"
+    }
+  },
+  {
+    "id": "DOC004",
+    "category": "Documentation",
+    "title": "Document REST API Function",
+    "function_name": "doc_rest_api",
+    "prompts": {
+      "structured": "Generate a docstring for fetch_user(user_id: int, include_metadata: bool = False) -> dict that calls an external REST API. Include: summary, Args, Returns (structure of the dict), Raises (requests.HTTPError, ValueError), Note on rate limiting, and Example response.",
+      "semi_structured": "Write docstring for a REST API calling function with error cases.",
+      "minimal": "docstring rest api function python"
+    }
+  },
+  {
+    "id": "DOC005",
+    "category": "Documentation",
+    "title": "Document Decorator",
+    "function_name": "doc_decorator",
+    "prompts": {
+      "structured": "Generate a Google-style docstring for a retry(max_attempts: int, delay: float) decorator that retries a function on exception. Document both the outer decorator factory and the inner wrapper. Include Args, Returns (decorated function), and Example usage.",
+      "semi_structured": "Write docstrings for a retry decorator function.",
+      "minimal": "docstring decorator python"
+    }
+  },
+  {
+    "id": "DOC006",
+    "category": "Documentation",
+    "title": "Document Context Manager",
+    "function_name": "doc_context_manager",
+    "prompts": {
+      "structured": "Generate docstrings for a DatabaseConnection context manager class with __enter__ and __exit__ methods. Include class docstring, constructor args, __enter__ returns, __exit__ exception handling documentation, and Example using 'with' statement.",
+      "semi_structured": "Write docstrings for a context manager class.",
+      "minimal": "docstring context manager python"
+    }
+  },
+  {
+    "id": "DOC007",
+    "category": "Documentation",
+    "title": "Document Generator Function",
+    "function_name": "doc_generator",
+    "prompts": {
+      "structured": "Generate a Google-style docstring for read_in_chunks(file_path: str, chunk_size: int = 1024) that yields chunks of a file. Include summary, Args, Yields (not Returns), Raises (FileNotFoundError), and Example.",
+      "semi_structured": "Write a docstring for a generator function using Yields section.",
+      "minimal": "docstring generator yields python"
+    }
+  },
+  {
+    "id": "DOC008",
+    "category": "Documentation",
+    "title": "Document Async Function",
+    "function_name": "doc_async_function",
+    "prompts": {
+      "structured": "Generate a docstring for async fetch_all(urls: list[str], timeout: float = 30.0) -> list[dict] that fetches multiple URLs concurrently. Document the async nature, Args, Returns, Raises (asyncio.TimeoutError), and Example with asyncio.run().",
+      "semi_structured": "Write docstring for an async function with timeout parameter.",
+      "minimal": "docstring async function python"
+    }
+  },
+  {
+    "id": "DOC009",
+    "category": "Documentation",
+    "title": "Document Dataclass",
+    "function_name": "doc_dataclass",
+    "prompts": {
+      "structured": "Generate complete documentation for a Python dataclass Employee with fields: id, name, department, salary, hire_date. Include class docstring, field descriptions, and docstrings for methods compute_tenure() -> int and give_raise(percent: float) -> None.",
+      "semi_structured": "Write docstrings for a Python dataclass and its methods.",
+      "minimal": "docstring dataclass python"
+    }
+  },
+  {
+    "id": "DOC010",
+    "category": "Documentation",
+    "title": "Document Property",
+    "function_name": "doc_property",
+    "prompts": {
+      "structured": "Generate docstrings for a Circle class property 'area' (getter), 'radius' (getter and setter with validation), and 'circumference' (getter). Include description, type, Raises for invalid setter values, and property-specific doc conventions.",
+      "semi_structured": "Write docstrings for class properties with getter/setter.",
+      "minimal": "docstring property getter setter python"
+    }
+  },
+  {
+    "id": "DOC011",
+    "category": "Documentation",
+    "title": "Document Custom Exception",
+    "function_name": "doc_exception_class",
+    "prompts": {
+      "structured": "Generate class-level and __init__ docstrings for custom exception classes: APIError(base), RateLimitError(APIError), and AuthenticationError(APIError). Document attributes (status_code, message, retry_after) and when each is raised.",
+      "semi_structured": "Write docstrings for a custom exception class hierarchy.",
+      "minimal": "docstring custom exception class python"
+    }
+  },
+  {
+    "id": "DOC012",
+    "category": "Documentation",
+    "title": "Document Module",
+    "function_name": "doc_module_level",
+    "prompts": {
+      "structured": "Generate a module-level docstring for a utility module 'text_processing.py' that provides functions for tokenisation, stemming, and frequency analysis. Include module summary, list of public functions, version, author, and usage example.",
+      "semi_structured": "Write a module-level docstring for a text processing utility module.",
+      "minimal": "module docstring python text processing"
+    }
+  },
+  {
+    "id": "DOC013",
+    "category": "Documentation",
+    "title": "Document CLI Script",
+    "function_name": "doc_cli_script",
+    "prompts": {
+      "structured": "Generate a docstring and argparse help strings for a CLI script that accepts --input (file path), --output (file path), --format (json|csv|xml), and --verbose (flag). Include module docstring, argument descriptions, and example command-line usage.",
+      "semi_structured": "Write docstrings and help strings for a CLI script with argparse.",
+      "minimal": "docstring cli argparse python"
+    }
+  },
+  {
+    "id": "DOC014",
+    "category": "Documentation",
+    "title": "Document Recursive Function",
+    "function_name": "doc_recursive_function",
+    "prompts": {
+      "structured": "Generate a Google-style docstring for a recursive function flatten(nested: list) -> list that flattens arbitrarily deep nested lists. Include summary, Args with nested list example, Returns, and a Note explaining the recursion approach and max depth limitation.",
+      "semi_structured": "Write docstring for recursive flatten function with depth note.",
+      "minimal": "docstring recursive function python"
+    }
+  },
+  {
+    "id": "DOC015",
+    "category": "Documentation",
+    "title": "Document Sorting Algorithm",
+    "function_name": "doc_sorting_algorithm",
+    "prompts": {
+      "structured": "Generate a detailed docstring for quick_sort(arr: list, low: int = 0, high: int = None) -> list. Include summary, Args for all three parameters (including default behaviour), Returns, Time Complexity (average vs worst case), Space Complexity, and when to prefer over merge sort.",
+      "semi_structured": "Write a full docstring for quicksort including complexity analysis.",
+      "minimal": "docstring quicksort complexity time space"
+    }
+  },
+  {
+    "id": "DOC016",
+    "category": "Documentation",
+    "title": "Document Graph Algorithm",
+    "function_name": "doc_graph_function",
+    "prompts": {
+      "structured": "Generate docstrings for dijkstra(graph: dict, src: int) -> dict. Document the graph input format (adjacency list of (neighbour, weight) tuples), what the returned dict contains, Raises for negative weights, Time Complexity, and Example.",
+      "semi_structured": "Write docstring for Dijkstra's algorithm including graph format.",
+      "minimal": "docstring dijkstra graph algorithm python"
+    }
+  },
+  {
+    "id": "DOC017",
+    "category": "Documentation",
+    "title": "Document ML Preprocessing",
+    "function_name": "doc_ml_function",
+    "prompts": {
+      "structured": "Generate a NumPy-style docstring for normalise(X: np.ndarray, axis: int = 0) -> np.ndarray that normalises features to zero mean and unit variance. Include Parameters with shape notation, Returns with shape, Raises for zero-variance features, and Example.",
+      "semi_structured": "Write NumPy-style docstring for a normalisation function.",
+      "minimal": "docstring numpy normalise machine learning"
+    }
+  },
+  {
+    "id": "DOC018",
+    "category": "Documentation",
+    "title": "Document Cache Decorator",
+    "function_name": "doc_cache_decorator",
+    "prompts": {
+      "structured": "Generate a docstring for memoize(func: Callable) -> Callable, a memoisation decorator that caches function results. Document the closure behaviour, cache invalidation policy, thread-safety note, and show Example for a fibonacci use case.",
+      "semi_structured": "Write docstring for a memoization decorator.",
+      "minimal": "docstring memoize cache decorator python"
+    }
+  },
+  {
+    "id": "DOC019",
+    "category": "Documentation",
+    "title": "Document File Handler Class",
+    "function_name": "doc_file_handler",
+    "prompts": {
+      "structured": "Generate class-level docstrings for a FileHandler class with methods: read(path) -> str, write(path, content), append(path, content), and delete(path). Document encoding assumptions, exception behaviour, and thread-safety notes.",
+      "semi_structured": "Write docstrings for a FileHandler class with read/write methods.",
+      "minimal": "docstring file handler class python"
+    }
+  },
+  {
+    "id": "DOC020",
+    "category": "Documentation",
+    "title": "Document Input Validator",
+    "function_name": "doc_validator",
+    "prompts": {
+      "structured": "Generate docstrings for validate_email(email: str) -> bool and validate_phone(phone: str, country_code: str = 'IN') -> bool. Include pattern used, Args, Returns, Examples of valid and invalid inputs.",
+      "semi_structured": "Write docstrings for email and phone validation functions.",
+      "minimal": "docstring validation email phone python"
+    }
+  },
+  {
+    "id": "DOC021",
+    "category": "Documentation",
+    "title": "Document Singleton Pattern",
+    "function_name": "doc_singleton",
+    "prompts": {
+      "structured": "Generate docstrings for a thread-safe Singleton metaclass and an example DatabasePool class using it. Document the metaclass __call__ method, thread-safety guarantee, and why Singleton is used here.",
+      "semi_structured": "Write docstrings for a thread-safe Singleton pattern.",
+      "minimal": "docstring singleton pattern python"
+    }
+  },
+  {
+    "id": "DOC022",
+    "category": "Documentation",
+    "title": "Document Observer Pattern",
+    "function_name": "doc_observer_pattern",
+    "prompts": {
+      "structured": "Generate docstrings for an Observer pattern implementation with EventEmitter class (on, off, emit methods) and a Subscriber base class. Document event names, callback signatures, and Example usage for a stock price notifier.",
+      "semi_structured": "Write docstrings for an Observer/EventEmitter pattern.",
+      "minimal": "docstring observer pattern eventemitter python"
+    }
+  },
+  {
+    "id": "DOC023",
+    "category": "Documentation",
+    "title": "Document Config Loader",
+    "function_name": "doc_configuration",
+    "prompts": {
+      "structured": "Generate docstrings for load_config(path: str, env: str = 'production') -> dict that loads YAML config files with environment overrides. Document file format expected, environment merging behaviour, Raises, and Example config structure.",
+      "semi_structured": "Write docstring for a YAML config loader with environment overrides.",
+      "minimal": "docstring config loader yaml python"
+    }
+  },
+  {
+    "id": "DOC024",
+    "category": "Documentation",
+    "title": "Document Rate Limiter",
+    "function_name": "doc_rate_limiter",
+    "prompts": {
+      "structured": "Generate docstrings for a RateLimiter class implementing the token bucket algorithm. Document __init__ (rate, burst), acquire(tokens: int = 1) -> bool, and the algorithm in a Notes section. Include thread-safety note.",
+      "semi_structured": "Write docstrings for a token bucket rate limiter class.",
+      "minimal": "docstring rate limiter token bucket python"
+    }
+  },
+  {
+    "id": "DOC025",
+    "category": "Documentation",
+    "title": "Document Data Pipeline",
+    "function_name": "doc_pipeline",
+    "prompts": {
+      "structured": "Generate docstrings for a Pipeline class with add_stage(fn: Callable), run(data) -> Any, and run_parallel(data: list) -> list methods. Document the stage composition pattern, data flow, and Example of chaining transformations.",
+      "semi_structured": "Write docstrings for a data pipeline class with stages.",
+      "minimal": "docstring pipeline data processing python"
+    }
+  },
+  {
+    "id": "DOC026",
+    "category": "Documentation",
+    "title": "Document Serialiser",
+    "function_name": "doc_serialiser",
+    "prompts": {
+      "structured": "Generate docstrings for to_json(obj: Any, indent: int = 2) -> str and from_json(s: str, cls: type) -> Any with support for custom objects. Document the custom serialisation protocol (__to_json__ method), Raises, and Example.",
+      "semi_structured": "Write docstrings for JSON serialise/deserialise functions.",
+      "minimal": "docstring json serialiser python"
+    }
+  },
+  {
+    "id": "DOC027",
+    "category": "Documentation",
+    "title": "Document Image Processing",
+    "function_name": "doc_image_processing",
+    "prompts": {
+      "structured": "Generate docstrings for resize_image(img: np.ndarray, width: int, height: int, interpolation: str = 'bilinear') -> np.ndarray. Document the interpolation options, input array shape (H, W, C), output shape, Raises for invalid dimensions.",
+      "semi_structured": "Write docstring for an image resize function with interpolation options.",
+      "minimal": "docstring image resize numpy python"
+    }
+  },
+  {
+    "id": "DOC028",
+    "category": "Documentation",
+    "title": "Document Auth Function",
+    "function_name": "doc_auth_function",
+    "prompts": {
+      "structured": "Generate docstrings for generate_token(user_id: int, expiry_minutes: int = 60) -> str and verify_token(token: str) -> dict. Document security considerations, token structure (JWT), Raises (TokenExpiredError, InvalidTokenError), and Example.",
+      "semi_structured": "Write docstrings for JWT token generation and verification functions.",
+      "minimal": "docstring jwt token auth python"
+    }
+  },
+  {
+    "id": "DOC029",
+    "category": "Documentation",
+    "title": "Document Priority Queue",
+    "function_name": "doc_queue_class",
+    "prompts": {
+      "structured": "Generate docstrings for a PriorityQueue class with push(item, priority: int), pop() -> Any, peek() -> Any, and is_empty() -> bool. Document the ordering behaviour (min or max heap), thread-safety, and Example.",
+      "semi_structured": "Write docstrings for a priority queue class.",
+      "minimal": "docstring priority queue class python"
+    }
+  },
+  {
+    "id": "DOC030",
+    "category": "Documentation",
+    "title": "Document Test Module",
+    "function_name": "doc_test_module",
+    "prompts": {
+      "structured": "Generate docstrings for a pytest test module testing a Stack class. Include module docstring, class-level docstring for TestStack, and method docstrings for test_push, test_pop_empty, and test_peek. Follow pytest docstring conventions.",
+      "semi_structured": "Write docstrings for a pytest test module and test class.",
+      "minimal": "docstring pytest test module python"
+    }
+  },
+  {
+    "id": "DOC031",
+    "category": "Documentation",
+    "title": "Document DB Migration",
+    "function_name": "doc_migration_script",
+    "prompts": {
+      "structured": "Generate docstrings for upgrade() and downgrade() functions in a database migration script using Alembic. Document what schema changes are made, which tables/columns are affected, and rollback safety.",
+      "semi_structured": "Write docstrings for Alembic database migration upgrade/downgrade functions.",
+      "minimal": "docstring alembic migration python"
+    }
+  },
+  {
+    "id": "DOC032",
+    "category": "Documentation",
+    "title": "Document WebSocket Handler",
+    "function_name": "doc_websocket_handler",
+    "prompts": {
+      "structured": "Generate docstrings for on_connect(ws, path), on_message(ws, message), and on_disconnect(ws, code, reason) WebSocket handler functions. Document message format (JSON schema), error codes, and Example message payloads.",
+      "semi_structured": "Write docstrings for WebSocket event handler functions.",
+      "minimal": "docstring websocket handler python"
+    }
+  },
+  {
+    "id": "DOC033",
+    "category": "Documentation",
+    "title": "Document Pagination Helper",
+    "function_name": "doc_pagination",
+    "prompts": {
+      "structured": "Generate docstrings for paginate(queryset, page: int, page_size: int = 20) -> dict. Document the returned dict structure (items, total, page, pages, has_next, has_prev), Raises for out-of-range page, and Example.",
+      "semi_structured": "Write docstring for a pagination helper function.",
+      "minimal": "docstring pagination helper python"
+    }
+  },
+  {
+    "id": "DOC034",
+    "category": "Documentation",
+    "title": "Document Environment Loader",
+    "function_name": "doc_env_loader",
+    "prompts": {
+      "structured": "Generate docstrings for load_env(path: str = '.env', override: bool = False) -> dict. Document the .env file format supported, the override behaviour (whether to overwrite existing OS env vars), Raises, and Example.",
+      "semi_structured": "Write docstring for a .env file loader function.",
+      "minimal": "docstring env loader dotenv python"
+    }
+  },
+  {
+    "id": "DOC035",
+    "category": "Documentation",
+    "title": "Document Cache Strategy",
+    "function_name": "doc_caching_strategy",
+    "prompts": {
+      "structured": "Generate docstrings for a CacheStrategy abstract base class with methods get(key) -> Optional[Any], set(key, value, ttl: int), delete(key), and clear(). Then document LRUCache(CacheStrategy) and TTLCache(CacheStrategy) subclasses.",
+      "semi_structured": "Write docstrings for a cache strategy ABC and its implementations.",
+      "minimal": "docstring abstract cache strategy python"
+    }
+  },
+  {
+    "id": "DOC036",
+    "category": "Documentation",
+    "title": "Document Logging Setup",
+    "function_name": "doc_logging_setup",
+    "prompts": {
+      "structured": "Generate docstrings for setup_logging(level: str = 'INFO', log_file: Optional[str] = None, json_format: bool = False) -> logging.Logger. Document each parameter, the JSON format structure when enabled, and Example of getting a module-level logger.",
+      "semi_structured": "Write docstring for a logging setup utility function.",
+      "minimal": "docstring logging setup python"
+    }
+  },
+  {
+    "id": "DOC037",
+    "category": "Documentation",
+    "title": "Generate README Content",
+    "function_name": "doc_readme",
+    "prompts": {
+      "structured": "Generate a comprehensive README.md content (as a string or printed output) for a Python package called 'quickbench' that benchmarks LLM API response times. Include: Project description, Features list, Installation (pip), Quick Start example, Configuration options table, Contributing guide stub, and License section.",
+      "semi_structured": "Generate README.md content for a Python LLM benchmarking package.",
+      "minimal": "generate readme python package"
+    }
+  }
+]
