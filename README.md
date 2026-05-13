@@ -39,16 +39,23 @@ Models evaluated: Claude 3.7 Sonnet, Gemini 2.0 Flash, GPT-4o (Western), GLM-4-P
 ## Repository Structure
 
 ```
-├── IPR_Submission_Proof/       # Research paper PDF + submission screenshot
-├── Report_and_PPT/             # Project report and presentation slides
-├── Source_Code/                # Python benchmark and scoring source code
+├── IPR_Submission_Proof/                                           # Research paper PDF + submission screenshot
+│   ├── Acceptance Letter ICMREST.pdf
+│   └── submission_proof.png
+├── Report_and_PPT/                                                 # Project report and presentation slides
+│   ├── 22100990268_2210991904_2210991487_PPT.pptx
+├── Source_Code/                                                    # Python benchmark and scoring source code
 │   ├── benchmark/
-│   │   └── tasks.json          # 150 coding tasks (3 prompt variants each)
+│   │   └── tasks.json                                              # 150 coding tasks (3 prompt variants each)
 │   ├── evaluation/
-│   │   ├── runner.py           # Calls all 6 LLM APIs and runs benchmark
-│   │   └── scorer.py           # Composite scoring engine
+│   │   ├── runner.py                                               # Calls all 6 LLM APIs and runs benchmark
+│   │   └── scorer.py                                               # Composite scoring engine
+│   ├── Research Paper/
+│   │   └── 2210991904_22100990268_2210991487_researchPaper.docx
+│   ├── Research Paper latex code/
+│   │   └── Research_Paper_latex_code.tex
 │   └── results/
-│       └── scores.csv          # Full experimental results
+│       └── scores.csv                                              # Full experimental results
 └── README.md
 ```
 
